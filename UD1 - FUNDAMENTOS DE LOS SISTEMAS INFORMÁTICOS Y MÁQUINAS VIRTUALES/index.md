@@ -104,6 +104,8 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 
   </details>
 
+&nbsp;
+
 * **<u>MEDIDAS DE LA INFORMACIÓN</u>**
 ![alt text](./imatges/image-60.png)
 
@@ -162,7 +164,7 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 > * Si las medidas están en pulgadas, tener en cuenta que 2,54 cm equivalen aproximadamente a una pulgada.-->
 
 ### <u>Componentes Placa base</u>
-* [**<u>Zócalo del microprocesador</u>**]: es el conector en el que se inserta el microprocesador o CPU
+* **<u>Zócalo del microprocesador</u>**: es el conector en el que se inserta el microprocesador o CPU
 * **<u>Ranuras de memoria</u>**: son los conectores donde se instala la memoria principal del ordenador, la memoria RAM. También se los llama bancos de memoria.
 * Chipset: se encarga de controlar muchas de las funciones que se llevan a cabo en el ordenador, como, por ejemplo, la transferencia de datos entre la memoria, la CPU y los dispositivos periféricos.
 * La BIOS: el Sistema Básico de Entrada/Salida (Basic Input/Output System) es un pequeño conjunto de programas almacenados en una memoria que permiten que el sistema se comunique con los dispositivos durante el proceso de arranque.
