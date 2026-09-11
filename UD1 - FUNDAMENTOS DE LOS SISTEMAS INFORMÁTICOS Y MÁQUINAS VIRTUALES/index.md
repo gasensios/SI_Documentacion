@@ -174,7 +174,7 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 * Conectores internos: son los conectores para los dispositivos internos, como el disco duro, la unidad de DVD, etc.
 * Conectores de energía: a los que se conectan los cables de la fuente de alimentación para que la placa base y otros componentes reciban la electricidad.
 * La batería: gracias a ella, se puede almacenar la configuración del sistema usada durante la secuencia de arranque del ordenador, como la fecha, la hora, los parámetros de la BIOS, etc.
-* Conectores y componentes de una placa base [Video] https://www.youtube.com/watch?v=bDcdrc2AD5k
+* Conectores y componentes de una placa base [Video] [https://www.youtube.com/watch?v=bDcdrc2AD5k](https://www.youtube.com/watch?v=bDcdrc2AD5k)
 
 ![alt text](./imatges/image-17.png)
 
@@ -624,4 +624,3 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 
     ![alt text](./imatges/image-59.png)
 
-    final
