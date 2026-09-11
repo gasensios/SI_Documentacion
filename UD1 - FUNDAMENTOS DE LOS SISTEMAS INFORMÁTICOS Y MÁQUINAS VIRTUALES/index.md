@@ -166,16 +166,16 @@ F
 <!-- ![alt text](./imatges/image-16.png) -->
 
 ### <u>Componentes Placa base</u>
-* **<u>Zócalo del microprocesador</u>**: es el conector en el que se inserta el microprocesador o CPU
-* **<u>Ranuras de memoria</u>**: son los conectores donde se instala la memoria principal del ordenador, la memoria RAM. También se los llama bancos de memoria.
-* Chipset: se encarga de controlar muchas de las funciones que se llevan a cabo en el ordenador, como, por ejemplo, la transferencia de datos entre la memoria, la CPU y los dispositivos periféricos.
-* La BIOS: el Sistema Básico de Entrada/Salida (Basic Input/Output System) es un pequeño conjunto de programas almacenados en una memoria que permiten que el sistema se comunique con los dispositivos durante el proceso de arranque.
-* Ranuras de expansión o slots: son las ranuras donde se introducen las tarjetas de expansión.
-* Conectores externos: permiten que los dispositivos externos se comuniquen con la CPU, como, por ejemplo, el teclado o el ratón.
-* Conectores internos: son los conectores para los dispositivos internos, como el disco duro, la unidad de DVD, etc.
-* Conectores de energía: a los que se conectan los cables de la fuente de alimentación para que la placa base y otros componentes reciban la electricidad.
-* La batería: gracias a ella, se puede almacenar la configuración del sistema usada durante la secuencia de arranque del ordenador, como la fecha, la hora, los parámetros de la BIOS, etc.
-* Conectores y componentes de una placa base [Video] [https://www.youtube.com/watch?v=bDcdrc2AD5k](https://www.youtube.com/watch?v=bDcdrc2AD5k)
+* **Zócalo del microprocesador**: es el conector en el que se inserta el microprocesador o CPU
+* **Ranuras de memoria**: son los conectores donde se instala la memoria principal del ordenador, la memoria RAM. También se los llama bancos de memoria.
+* **Chipset**: se encarga de controlar muchas de las funciones que se llevan a cabo en el ordenador, como, por ejemplo, la transferencia de datos entre la memoria, la CPU y los dispositivos periféricos.
+* **La BIOS**: el Sistema Básico de Entrada/Salida (Basic Input/Output System) es un pequeño conjunto de programas almacenados en una memoria que permiten que el sistema se comunique con los dispositivos durante el proceso de arranque.
+* **Ranuras de expansión o slots**: son las ranuras donde se introducen las tarjetas de expansión.
+* **Conectores externos**: permiten que los dispositivos externos se comuniquen con la CPU, como, por ejemplo, el teclado o el ratón.
+* **Conectores internos**: son los conectores para los dispositivos internos, como el disco duro, la unidad de DVD, etc.
+* **Conectores de energía**: a los que se conectan los cables de la fuente de alimentación para que la placa base y otros componentes reciban la electricidad.
+* **La batería**: gracias a ella, se puede almacenar la configuración del sistema usada durante la secuencia de arranque del ordenador, como la fecha, la hora, los parámetros de la BIOS, etc.
+* **Conectores y componentes de una placa base**  [Video] [https://www.youtube.com/watch?v=bDcdrc2AD5k](https://www.youtube.com/watch?v=bDcdrc2AD5k)
 
 ![alt text](./imatges/image-17.png)
 
