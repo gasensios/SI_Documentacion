@@ -8,7 +8,7 @@ has_toc: true
 ---
 
 # FUNDAMENTOS DE LOS SISTEMAS INFORMÁTICOS Y LAS MÁQUINAS VIRTUALES
-* [Arquitectura de un sistema informático. Modelos](#arquitectura-modelos)
+* [Arquitectura de un sistema informático. Modelos](#arquitectura-de-un-sistema-informatico-modelos)
 * [Componentes hardware de un sistema informático](#componentes-hardware)
 * [Controladores de dispositivos. Instalación de drivers](#dispositivos)
 * [Componentes software de un sistema informático](#software)
@@ -16,7 +16,7 @@ has_toc: true
 * [Máquinas virtuales](#maquina-virtual)
 * [Normas de seguridad y prevención de riesgos laborales](#seguridad)
 
-## <u>Arquitectura de un sistema informático. Modelos</u> {: #arquitectura-modelos }
+## <u>Arquitectura de un sistema informático. Modelos</u> {:  #arquitectura-de-un-sistema-informatico-modelos }
 
 ![alt text](./imatges/image.png)
 
