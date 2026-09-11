@@ -16,7 +16,7 @@ has_toc: true
 * [Máquinas virtuales](#maquina-virtual)
 * [Normas de seguridad y prevención de riesgos laborales](#seguridad)
 
-## Arquitectura de un sistema informático. Modelos {: #arquitectura-de-un-sistema-informatico-modelos }
+<h2 id="arquitectura-de-un-sistema-informatico-modelos"><u>Arquitectura de un sistema informático. Modelos</u></h2>
 
 ![alt text](./imatges/image.png)
 
