@@ -110,14 +110,13 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 ![alt text](./imatges/image-60.png)
 
 **Convertir entre medidas [Video]:**
-https://www.youtube.com/watch?v=IEg_5sjhw-8
+[https://www.youtube.com/watch?v=IEg_5sjhw-8](https://www.youtube.com/watch?v=IEg_5sjhw-8)
 
-
-  ## Actividad 3
+## Actividad 3
   - Suponiendo caracteres de 8 bits
   ![alt text](./imatges/image-10.png)
 
-  ##  Solución 3
+##  Solución 3
   <details> Suponiendo caracteres de 8 bits (1 byte):
   2GB se traduce a 2,147,483,648 bytes
   Cantidad de caracteres = Capacidad de la memoria (en bytes) / Tamaño de un carácter (en bytes)
@@ -128,12 +127,13 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 
   </details>
 
-  ## Actividad 4
+## Actividad 4
   - Transformar estas cantidades a KB, MB, GB y TB.
     > Importante: Para realizar 1a equivalencia de unas medidas de información con otras, tendremos siempre en cuenta la medida a la que llegar y la medida de la que partimos
+
       ![alt text](./imatges/image-12.png)
 
-  ## Solución 4
+## Solución 4
   <details>
     
   <img src="./imatges/image-13.png" alt="alt text">
@@ -149,19 +149,20 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 
   * Hay una gran variedad de formas, tamaños y tipos de placas base. El factor de forma de la placa base determina el tamaño y orientación de la placa con respecto a la caja, el tipo de fuente de alimentación necesaria y dicta los periféricos que pueden integrarse en la placa.
 
-
 ### <u>Actividad Entregable</u>
 > Buscar las dimensiones y características de cada una de estos factores de forma y nombra algún otro tipo de factor de forma que no esté entre la lista con sus dimensiones
 >   * ATX, Mini-ATX y Micro-ATX
 >   * LPX y NLX
 >   * BTX
 >   * Mini-ITX, Nano-ITX y Pico-ITX
-> <!-- ![alt text](./imatges/image-16.png) 
-> * También podemos encontrar otros factores de forma como: 
->   * DTX / Mini-DTX
->   * Micro-BTX / Pico-BTX
->   * ETX / Nano-ETX / XTX
-> * Si las medidas están en pulgadas, tener en cuenta que 2,54 cm equivalen aproximadamente a una pulgada.-->
+
+<!-- ![alt text](./imatges/image-16.png) 
+* También podemos encontrar otros factores de forma como: 
+   * DTX / Mini-DTX
+   * Micro-BTX / Pico-BTX
+   * ETX / Nano-ETX / XTX
+ * Si las medidas están en pulgadas, tener en cuenta que 2,54 cm equivalen aproximadamente a una pulgada
+ -->
 
 ### <u>Componentes Placa base</u>
 * **<u>Zócalo del microprocesador</u>**: es el conector en el que se inserta el microprocesador o CPU
