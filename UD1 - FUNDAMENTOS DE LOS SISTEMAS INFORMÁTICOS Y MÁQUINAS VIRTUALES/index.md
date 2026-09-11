@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 #### <u>Modelo 2: Arquitectura de Harvard</u>
   * La principal diferencia entre las dos arquitecturas es que en una arquitectura de Von Neumann toda la memoria es capaz de almacenar todos los elementos del programa, datos e instrucciones; en una arquitectura de Harvard la memoria se divide en dos memorias, una para datos y otra para instrucciones.
   * División de la memoria en una memoria de instrucciones y una memoria de datos, permite que el procesador puede acceder separada y simultáneamente a las dos memorias
-  * **Von Neumann vs Harvard [Video]:** https://www.youtube.com/watch?v=uPNgjj2a3xE
+  * **Von Neumann vs Harvard [Video]:** [https://www.youtube.com/watch?v=uPNgjj2a3xE](https://www.youtube.com/watch?v=uPNgjj2a3xE)
 
     ![alt text](image.png)
 
