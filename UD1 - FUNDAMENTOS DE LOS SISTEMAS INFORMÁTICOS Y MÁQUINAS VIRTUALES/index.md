@@ -81,21 +81,30 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 
   ## Actividad 1
   ![alt text](./imatges/image-6.png)
+  
   ## Solución 1
-  ![alt text](./imatges/image-7.png)
+  <details>
+
+    ![alt text](./imatges/image-7.png)
+
+  </details>
 
   ## Actividad 2
   ![alt text](./imatges/image-8.png)
+  
   ## Solución 2
   <details>
-  > MIPS = (10,000 instrucciones / 10 segundos) / 1,000,000
-  MIPS = (1,000 instrucciones por segundo) / 1,000,000
-  MIPS = 0.001 MIPS
-  Entonces, la potencia del microprocesador en MIPS es de 0.001 MIPS, lo que significa que puede ejecutar 0.001 millones de instrucciones por segundo.
-  ![alt text](image.png)
-</details>
+  
+    MIPS = (10,000 instrucciones / 10 segundos) / 1,000,000
+    MIPS = (1,000 instrucciones por segundo) / 1,000,000
+    MIPS = 0.001 MIPS
+    Entonces, la potencia del microprocesador en MIPS es de 0.001 MIPS, lo que significa que puede ejecutar 0.001 millones de instrucciones por segundo.
 
-* **<u>Medidas de la información</u>**
+      ![alt text](./imatges/image-9.png)
+
+  </details>
+
+* **<u>MEDIDAS DE LA INFORMACIÓN</u>**
 ![alt text](./imatges/image-9.png)
 **Convertir entre medidas [Video]:**
 https://www.youtube.com/watch?v=IEg_5sjhw-8
@@ -106,23 +115,25 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
   ![alt text](./imatges/image-10.png)
 
   ##  Solución 3
-  <details> > Suponiendo caracteres de 8 bits (1 byte):
+  <details> Suponiendo caracteres de 8 bits (1 byte):
   2GB se traduce a 2,147,483,648 bytes
   Cantidad de caracteres = Capacidad de la memoria (en bytes) / Tamaño de un carácter (en bytes)
   Cantidad de caracteres = 2,147,483,648 bytes / 1 byte (carácter)
   Cantidad de caracteres ≈ 2,147,483,648 caracteres
 
-  ![alt text](./imatges/image-11.png)
+    ![alt text](./imatges/image-11.png)
   </details>
 
   ## Actividad 4
   - Transformar estas cantidades a KB, MB, GB y TB.
     > Importante: Para realizar 1a equivalencia de unas medidas de información con otras, tendremos siempre en cuenta la medida a la que llegar y la medida de la que partimos
-    ![alt text](./imatges/image-12.png)
+      ![alt text](./imatges/image-12.png)
 
   ## Solución 4
-  <details>
-  ![alt text](./imatges/image-13.png)
+  <details> Se muestra la solución
+    
+    ![alt text](imatges/image-13.png)
+
   </details>
 
 ## <u>Componentes hardware de un sistema informático</u> {: #componentes-hardware }
