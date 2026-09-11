@@ -109,7 +109,7 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
 * **<u>MEDIDAS DE LA INFORMACIÓN</u>**
 ![alt text](./imatges/image-60.png)
 
-**Convertir entre medidas [Video]:**
+**Convertir entre medidas [Video]:** 
 [https://www.youtube.com/watch?v=IEg_5sjhw-8](https://www.youtube.com/watch?v=IEg_5sjhw-8)
 
 ## Actividad 3
