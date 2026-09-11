@@ -5,6 +5,18 @@ theme: just-the-docs
 url: https://gasensios.github.io/SI_Documentacion/
 baseurl: "/SI_Documentacion" 
 
+# Codificación de caracteres y motor Markdown
+encoding: utf-8
+markdown: kramdown
+
+kramdown:
+  input: GFM                                     # GitHub Flavored Markdown
+  hard_wrap: false
+  auto_ids: true                                 # Genera automáticamente los IDs para los encabezados (#)
+
+# Ajustes adicionales
+heading_anchors: true
+
 aux_links:
   "Accés a Aules": 
     - https://aules.edu.gva.es/fp/
