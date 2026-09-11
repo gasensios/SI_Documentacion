@@ -8,7 +8,7 @@ has_toc: true
 ---
 
 # FUNDAMENTOS DE LOS SISTEMAS INFORMÁTICOS Y LAS MÁQUINAS VIRTUALES
-* [Arquitectura de un sistema informático. Modelos](#arquitectura-de-un-sistema-informatico-modelos)
+* [Arquitectura de un sistema informático. Modelos](#arquitectura-modelos)
 * [Componentes hardware de un sistema informático](#componentes-hardware)
 * [Controladores de dispositivos. Instalación de drivers](#dispositivos)
 * [Componentes software de un sistema informático](#software)
@@ -16,7 +16,7 @@ has_toc: true
 * [Máquinas virtuales](#maquina-virtual)
 * [Normas de seguridad y prevención de riesgos laborales](#seguridad)
 
-<h2 id="arquitectura-de-un-sistema-informatico-modelos"><u>Arquitectura de un sistema informático. Modelos</u></h2>
+<h2 id="arquitectura-modelos"><u>Arquitectura de un sistema informático. Modelos</u></h2>
 
 ![alt text](./imatges/image.png)
 
@@ -85,7 +85,7 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
   ## Solución 1
   <details>
 
-    ![alt text](./imatges/image-7.png)
+    <img src="./imatges/image-7.png" alt="alt text">
 
   </details>
 
@@ -100,12 +100,13 @@ https://www.youtube.com/watch?v=b5mZKUTQ3JQ
     MIPS = 0.001 MIPS
     Entonces, la potencia del microprocesador en MIPS es de 0.001 MIPS, lo que significa que puede ejecutar 0.001 millones de instrucciones por segundo.
 
-      ![alt text](./imatges/image-9.png)
+    <img src="./imatges/image-9.png" alt="alt text">
 
   </details>
 
 * **<u>MEDIDAS DE LA INFORMACIÓN</u>**
-![alt text](./imatges/image-9.png)
+![alt text](./imatges/image-60.png)
+
 **Convertir entre medidas [Video]:**
 https://www.youtube.com/watch?v=IEg_5sjhw-8
 
@@ -121,7 +122,8 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
   Cantidad de caracteres = 2,147,483,648 bytes / 1 byte (carácter)
   Cantidad de caracteres ≈ 2,147,483,648 caracteres
 
-    ![alt text](./imatges/image-11.png)
+  <img src="./imatges/image-11.png" alt="alt text">
+
   </details>
 
   ## Actividad 4
@@ -130,13 +132,14 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
       ![alt text](./imatges/image-12.png)
 
   ## Solución 4
-  <details> Se muestra la solución
+  <details>
     
-    ![alt text](imatges/image-13.png)
+  <img src="./imatges/image-13.png" alt="alt text">
 
   </details>
 
-## <u>Componentes hardware de un sistema informático</u> {: #componentes-hardware }
+<h2 id="componentes-hardware"><u>Componentes hardware de un sistema informático</u></h2>
+
 ![alt text](./imatges/image-14.png)
 * Placa base
   * La placa base (mainboard) o placa madre (motherboard) es el elemento principal del ordenador; a ella se conectan todos los demás dispositivos, como pueden ser el disco duro, la memoria o el microprocesador, y hace que todos estos componentes funcionen en equipo. De ella dependerán los componentes que podremos instalar y las posibilidades de ampliación del ordenador.
@@ -159,7 +162,7 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 > * Si las medidas están en pulgadas, tener en cuenta que 2,54 cm equivalen aproximadamente a una pulgada.-->
 
 ### <u>Componentes Placa base</u>
-* [**<u>Zócalo del microprocesador</u>**](#zocalo): es el conector en el que se inserta el microprocesador o CPU
+* [**<u>Zócalo del microprocesador</u>**]: es el conector en el que se inserta el microprocesador o CPU
 * **<u>Ranuras de memoria</u>**: son los conectores donde se instala la memoria principal del ordenador, la memoria RAM. También se los llama bancos de memoria.
 * Chipset: se encarga de controlar muchas de las funciones que se llevan a cabo en el ordenador, como, por ejemplo, la transferencia de datos entre la memoria, la CPU y los dispositivos periféricos.
 * La BIOS: el Sistema Básico de Entrada/Salida (Basic Input/Output System) es un pequeño conjunto de programas almacenados en una memoria que permiten que el sistema se comunique con los dispositivos durante el proceso de arranque.
@@ -172,7 +175,7 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 
 ![alt text](./imatges/image-17.png)
 
-* ### Zócalo del microprocesador {: #zocalo }
+* ### Zócalo del microprocesador
   * Es el conector en el que se inserta el microprocesador. Este ha evolucionado desde la aparición de los primeros microprocesadores para PC, donde el micro se soldaba a la placa base o se insertaba en el zócalo y no se podía sacar, hasta los conectores actuales, en los que es fácil cambiar el micro.
     * **<u>ZIF (Zero Insertion Force)</u>**. En este tipo de zócalo, el micro se inserta y se retira sin necesidad de hacer presión. La palanca que hay al lado del zócalo permite introducirlo sin hacer presión, lo que evita que se puedan doblar las patillas. Una vez colocado, al levantar la palanca el micro se liberará sin ningún problema.
     ![alt text](./imatges/image-18.png)
@@ -436,7 +439,9 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 
       ![alt text](./imatges/image-47.png)
 
-## SOFTWARE {: #software }
+
+<h2 id="software"><u>SOFTWARE</u></h2>
+
   * **Software base o de sistema**
     * Se define como el software básico sin la cual el ordenador no puede funcionar. El sistema operativo es el alma del ordenador.
     Sirve de comunicación entre el usuario y el hardware de la máquina. Controla los recursos hardware de la máquina según las necesidades, los programas de aplicación, el lugar donde se almacenan los datos, el momento en que hay que imprimir, el momento en que se pulsa un botón del ratón, etc.
@@ -460,7 +465,8 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
     * Tratamiento de errores
     * Inicialización del sistema o arranque
 
-## Controladores de dispositivos {: #dispositivos }
+
+<h2 id="dispositivos"><u>Controladores de dispositivos</u></h2>
 
   * Los dispositivos hardware del sistema informático necesitan ser reconocidos por el SO, para ello los componentes hardware disponen de controladores que se encargan de gestionar y coordinar el funcionamiento del dispositivo, además de establecer un “diálogo” con la estructura de orden superior del sistema informático.
   * Proporciona una interfaz de software con el hardware, lo que permite a los sistemas operativos y otros programas informáticos acceder a las funciones del hardware sin necesidad de conocer detalles precisos sobre el hardware que se está utilizando.
@@ -476,7 +482,8 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
 
       ![alt text](./imatges/image-50.png)
 
-## Proceso de arranque de un sistema informático. POST  {: #post } 
+
+<h2 id="post"><u>Proceso de arranque de un sistema informático. POST</u></h2>
 
   *  Al pulsar el botón de arranque, la fuente de alimentación distribuye los siguientes voltajes:
      * 3,3 V para los componentes electrónicos de más baja potencia (ej: memoria RAM o unidades SSD de formato M.2)
@@ -525,7 +532,8 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
   
       ![alt text](./imatges/image-55.png)
 
-## MÁQUINAS VIRTUALES {: #maquina-virtual }
+<h2 id="maquina-virtual"><u>MÁQUINAS VIRTUALES</u></h2>
+
   * Llamamos máquina virtual a una computadora no real, instalada y configurada en un sistema informático mediante un software que permite simular su funcionamiento autónomo.
   * Cuando se habla de virtualización en informática, estamos hablando de la abstracción de los recursos hardware de la computadora. El sistema informático al que se abstraen sus recursos para poder instalar la máquina virtual se denomina host o anfitrión. Sobre estos se podrá instalar la máquina virtual con sistemas operativos guest o invitado.
   * Las máquinas virtuales se emplean principalmente para:
@@ -580,7 +588,8 @@ https://www.youtube.com/watch?v=IEg_5sjhw-8
   * Actividad
     1. Crea una máquina virtual con el nombre Prueba, estableciendo una configuración con memoria RAM de 2 GB y un disco duro de tamaño fijo de 20 GB. Crearemos una instantánea y, a continuación, elimina la máquina virtual.
 
-## NORMAS DE SEGURIDAD Y PREVENCIÓN DE RIESGOS LABORALES  {: #seguridad }
+<h2 id="seguridad"><u>ANORMAS DE SEGURIDAD Y PREVENCIÓN DE RIESGOS LABORALES</u></h2>
+
   * Cuando trabajamos con un sistema informático, debemos adoptar unas recomendaciones ergonómicas y de seguridad básicas de cara a prevenir o minimizar cualquier riesgo laboral.
   * En la Unión Europea y en España existe una normativa específica en cada sector laboral que regula las normas de seguridad y de prevención de riesgos laborales.
   * En España, la norma más amplia al respecto es la Ley 31/1995 de prevención de riesgos laborales que establece la seguridad para el trabajador cuando realiza sus actividades laborales. Esta ley señala que “los trabajadores tienen derecho a una protección eficaz en materia de seguridad y salud en el trabajo”.
