@@ -1,5 +1,5 @@
 ---
-title: Sistemes Informàtics
+title: Sistemes Informatics
 layout: default
 nav_order: 1
 has_children: true
