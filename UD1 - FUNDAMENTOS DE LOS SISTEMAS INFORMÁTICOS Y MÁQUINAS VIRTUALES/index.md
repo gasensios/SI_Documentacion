@@ -50,7 +50,7 @@ has_toc: true
     * La UC envía el resultado a la memoria principal y lee cual es la siguiente instrucción, iniciando el ciclo de nuevo.
 
 - **<u>Como trabaja el procesador [Video]</u>:**
-https://www.youtube.com/watch?v=b5mZKUTQ3JQ
+[https://www.youtube.com/watch?v=b5mZKUTQ3JQ](https://www.youtube.com/watch?v=b5mZKUTQ3JQ)
 
 #### <u>Modelo 2: Arquitectura de Harvard</u>
   * La principal diferencia entre las dos arquitecturas es que en una arquitectura de Von Neumann toda la memoria es capaz de almacenar todos los elementos del programa, datos e instrucciones; en una arquitectura de Harvard la memoria se divide en dos memorias, una para datos y otra para instrucciones.
