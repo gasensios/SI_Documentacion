@@ -111,7 +111,7 @@ has_toc: true
 
 **Convertir entre medidas [Video]:** 
 [https://www.youtube.com/watch?v=IEg_5sjhw-8](https://www.youtube.com/watch?v=IEg_5sjhw-8)
-F
+
 ## Actividad 3
   - Suponiendo caracteres de 8 bits
   ![alt text](./imatges/image-10.png)
