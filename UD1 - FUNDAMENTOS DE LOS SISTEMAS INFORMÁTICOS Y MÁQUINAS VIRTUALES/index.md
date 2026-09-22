@@ -443,6 +443,11 @@ has_toc: true
 
       ![alt text](./imatges/image-47.png)
 
+    * ***Solución***
+      <details>
+      La solución al ejercicio se puede revisar en esta dirección web: 
+      [https://www.picuino.com/es/informatica-hardware-placabase.html](https://www.picuino.com/es/informatica-hardware-placabase.html)
+      </details>
 
 <h2 id="software"><u>SOFTWARE</u></h2>
 
