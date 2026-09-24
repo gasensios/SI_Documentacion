@@ -17,7 +17,7 @@ has_toc: true
 * [Definición y Funciones Básicas de un SO](#sistema-operativo)
 * [Características de un Sistema Operativo](#carac-so)
 * [Módulos de Administración del Sistema](#mod-admin)
-* [Procesos, Flujos, Hilos y Bloque de Control de Procesos (BCP](#procesos-bcp)
+* [Procesos, Flujos, Hilos y Bloque de Control de Procesos (BCP)](#procesos-bcp)
 * [Algoritmos de Planificación](#algoritmo-pla)
 * [Otros Módulos de Administración del SO](#otro-admin)
 * [Clasificación de Sistemas Operativos](#clas-so)
