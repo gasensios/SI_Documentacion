@@ -11,12 +11,17 @@ has_toc: true
 
 ---
 
-
+## Documentación alternativa:
+1. [Comandos Basicos Linux](./SSOO-GNUBash-A03-Comandos-basicos.pdf)
+2. [Comandos  Básicos Windows](./WinXP-Consola-de-comandos.pdf)
+3. **Listado Comandos Linux**
+   ![alt text](Listado_Comandos_Linux.jpg)
 
 ---
 
 ## Índice de Contenidos
 - [SISTEMAS OPERATIVOS: GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO](#sistemas-operativos-gestión-de-archivos-y-almacenamiento)
+  - [Documentación alternativa:](#documentación-alternativa)
   - [Índice de Contenidos](#índice-de-contenidos)
     - [Mapa conceptual del tema](#mapa-conceptual-del-tema)
 - [1. Sistemas de Archivos](#1-sistemas-de-archivos)
