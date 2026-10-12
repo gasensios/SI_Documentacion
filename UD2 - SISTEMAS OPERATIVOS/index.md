@@ -357,9 +357,7 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
 ### Instalación de un Sistema Operativo
 * Instalar Ubuntu en VirtualBox: [https://www.youtube.com/watch?v=qH9JuCjCKow](https://www.youtube.com/watch?v=qH9JuCjCKow)
-
-<br>
-
+  
   ![alt text](./imatges/image-26.png)
 
   ![alt text](./imatges/image-27.png )
@@ -368,34 +366,32 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
   ![alt text](./imatges/image-29.png)
 
-</br>
-
-* Instalar Windows 10 en VirtualBox: [https://www.youtube.com/watch?v=gfM9uMT575wlist=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J](https://www.youtube.com/watch?v=gfM9uMT575wlist=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J)
+* **INSTALAR Windows 10 en VirtualBox:** [https://www.youtube.com/watch?v=gfM9uMT575wlist=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J](https://www.youtube.com/watch?v=gfM9uMT575wlist=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J)
   
-* CÓMO tener DUAL BOOT de forma FÁCIL - WINDOWS +
-LINUX: [https://www.youtube.com/watch?v=Rj9bzqP5egU](https://www.youtube.com/watch?v=Rj9bzqP5egU)
+* **CÓMO tener DUAL BOOT de forma FÁCIL WINDOWS+LINUX:** [https://www.youtube.com/watch?v=Rj9bzqP5egU](https://www.youtube.com/watch?v=Rj9bzqP5egU)
 
-* Instalar Complemento Guest Additions
-  * [https://www.youtube.com/watch?v=DH1TDDX7NmE](https://www.youtube.com/watch?v=DH1TDDX7NmE)
-  * [https://www.youtube.com/watch?v=kwHmO6a35j8](https://www.youtube.com/watch?v=kwHmO6a35j8)
-  * En clase al darle a insertar Guest Additions CD image no funciona hay que:
-    * Ir a la página de descarga de VirtualBox, que es [https://download.virtualbox.org/virtualbox/](https://download.virtualbox.org/virtualbox/)
-    * buscar la versión que tenemos instalada de VirtualBox (por ejemplo 7.0.16)
-    * Descarga manualmente la iso del complemento, por ejemplo: **VBoxGuestAdditions_7.0.16.iso**
-    * Inserta manualmente la unidad CD en la VM
-    * Si la VM está en ejecución, está en el menú Devices > Optical Drives > Choose a disk file
-    * Luego selecciona el iso que acabas de descargar
-    * Seguir ya los pasos indicados en el video
+* ***AUTOAYUDA:***
+  * Instalar Complemento Guest Additions
+    * [https://www.youtube.com/watch?v=DH1TDDX7NmE](https://www.youtube.com/watch?v=DH1TDDX7NmE)
+    * [https://www.youtube.com/watch?v=kwHmO6a35j8](https://www.youtube.com/watch?v=kwHmO6a35j8)
+    * En clase al darle a insertar Guest Additions CD image no funciona hay que:
+      * Ir a la página de descarga de VirtualBox, que es [https://download.virtualbox.org/virtualbox/](https://download.virtualbox.org/virtualbox/)
+      * buscar la versión que tenemos instalada de VirtualBox (por ejemplo 7.0.16)
+      * Descarga manualmente la iso del complemento, por ejemplo: **VBoxGuestAdditions_7.0.16.iso**
+      * Inserta manualmente la unidad CD en la VM
+      * Si la VM está en ejecución, está en el menú Devices > Optical Drives > Choose a disk file
+      * Luego selecciona el iso que acabas de descargar
+      * Seguir ya los pasos indicados en el video
 
-* **Instalación desatendida**
-  * En ocasiones los SO a través de herramientas específicas puedes simplificar su instalación reduciendo al mínimo la intervención del usuario.
-  * Instalar Windows 10 en VirtualBox 7 en modo desatendido: [https://www.youtube.com/watch?v=C08MiyILxwM](https://www.youtube.com/watch?v=C08MiyILxwM)
-  * Como INSTALAR Windows 11 en Virtualbox PASO A PASO - INSTALACION DESATENDIDA
-    * [https://www.youtube.com/watch?v=zHctGd2p4B0](https://www.youtube.com/watch?v=zHctGd2p4B0)
-  * Herramienta NTLite
-    * [https://www.youtube.com/watch?v=dZUZC4eyP-Y](https://www.youtube.com/watch?v=dZUZC4eyP-Y)
-  * Herramienta Kickstart
-    * [https://www.youtube.com/watch?v=fsR3rxsYLSA](https://www.youtube.com/watch?v=fsR3rxsYLSA)
+  * **Instalación desatendida**
+    * En ocasiones los SO a través de herramientas específicas puedes simplificar su instalación reduciendo al mínimo la intervención del usuario.
+    * Instalar Windows 10 en VirtualBox 7 en modo desatendido: [https://www.youtube.com/watch?v=C08MiyILxwM](https://www.youtube.com/watch?v=C08MiyILxwM)
+    * Como INSTALAR Windows 11 en Virtualbox PASO A PASO - INSTALACION DESATENDIDA
+      * [https://www.youtube.com/watch?v=zHctGd2p4B0](https://www.youtube.com/watch?v=zHctGd2p4B0)
+    * Herramienta NTLite
+      * [https://www.youtube.com/watch?v=dZUZC4eyP-Y](https://www.youtube.com/watch?v=dZUZC4eyP-Y)
+    * Herramienta Kickstart
+      * [https://www.youtube.com/watch?v=fsR3rxsYLSA](https://www.youtube.com/watch?v=fsR3rxsYLSA)
 
 ---
 

@@ -11,6 +11,10 @@ has_toc: true
 
 ---
 
+
+
+---
+
 ## Índice de Contenidos
 - [SISTEMAS OPERATIVOS: GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO](#sistemas-operativos-gestión-de-archivos-y-almacenamiento)
   - [Índice de Contenidos](#índice-de-contenidos)
