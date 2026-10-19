@@ -113,12 +113,12 @@ El SO debe gestionar el reparto de tiempo del procesador entre los diferentes pr
 * La planificación orientada a los usuarios es más adecuada para sistemas interactivos donde el tiempo de respuesta es crítico, mientras que la planificación orientada al sistema está diseñada para maximizar la eficiencia de la CPU en sistemas de cálculo intensivo. La elección del enfoque depende del tipo de carga de trabajo que maneje el sistema.
 
   #### Comparativa de Planificación
-  | Característica | Planificación Orientada a Usuarios ($E/S$) | Planificación Orientada al Sistema (CPU) |
+  | Característica | Planificación Orientada a Usuarios (E/S) | Planificación Orientada al Sistema (CPU) |
   | :--- | :--- | :--- |
   | **Tipo de procesos priorizados** | Operaciones de entrada/salida | Cálculos intensivos |
   | **Objetivo principal** | Minimizar el tiempo de respuesta de los usuarios | Maximizar la utilización de la CPU |
   | **Interactividad** | Alta, adecuada para aplicaciones interactivas | Baja, adecuada para procesos de cálculo intensivo |
-  | **Cambios de contexto** | Frecuentes debido a la espera por $E/S$ | Menos frecuentes, periodos largos de ejecución |
+  | **Cambios de contexto** | Frecuentes debido a la espera por E/S | Menos frecuentes, periodos largos de ejecución |
   | **Algoritmos típicos** | Round Robin, SRTF | FCFS, SJF, Prioridad |
 
 ---
