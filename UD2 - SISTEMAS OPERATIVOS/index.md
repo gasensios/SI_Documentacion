@@ -53,9 +53,6 @@ has_toc: true
 
 ![alt text](./imatges/image-2.png)
 
-#### Relación por capas del sistema
-$$\text{Usuario} \longleftrightarrow \text{Aplicación} \longleftrightarrow \text{Sistema Operativo} \longleftrightarrow \text{Hardware}$$
-
 ### Funciones Básicas
 * Actuar de interfaz entre el usuario y el hardware de manera transparente para el primero.
 * Gestionar los recursos software y hardware del equipo.
