@@ -20,37 +20,41 @@ has_toc: true
 ---
 
 ## Índice de Contenidos
-- [Mapa conceptual del tema](#mapa-conceptual-del-tema)
-- [1. Sistemas de Archivos](#1-sistemas-de-archivos)
-    - [Tipos de sistemas de archivos](#tipos-de-sistemas-de-archivos)
-    - [Estructura de directorios en Linux](#estructura-de-directorios-en-linux)
-    - [Estructura de directorios en Windows](#estructura-de-directorios-en-windows)
-    - [Gestión de archivos por línea de comandos en Linux](#gestión-de-archivos-por-línea-de-comandos-en-linux)
-    - [Operaciones sobre directorios y carpetas (Linux)](#operaciones-sobre-directorios-y-carpetas-linux)
-    - [Atributos y Permisos (Linux)](#atributos-y-permisos-linux)
-  - [Tipos de archivos en Linux (Detalle)](#tipos-de-archivos-en-linux-detalle)
-    - [Operaciones con archivos en Linux](#operaciones-con-archivos-en-linux)
-  - [Operaciones sobre directorios y carpetas](#operaciones-sobre-directorios-y-carpetas)
-    - [Edición y Visualización de textos](#edición-y-visualización-de-textos)
-    - [Búsqueda de patrones (`grep`) y otros](#búsqueda-de-patrones-grep-y-otros)
-    - [Entrada y Salida Estándar. Redirecciones en Linux](#entrada-y-salida-estándar-redirecciones-en-linux)
-  - [Gestión de archivos en Microsoft Windows](#gestión-de-archivos-en-microsoft-windows)
-    - [Entorno Gráfico (Explorador)](#entorno-gráfico-explorador)
-    - [Modo Comando (CMD Windows)](#modo-comando-cmd-windows)
-- [2. Almacenamiento](#2-almacenamiento)
-  - [Gestión de almacenamiento en Linux](#gestión-de-almacenamiento-en-linux)
-    - [Montaje (`mount` / `umount`)](#montaje-mount--umount)
-    - [Particionamiento, Formateo y Chequeo](#particionamiento-formateo-y-chequeo)
-    - [RAID en Linux (Redundant Array of Independent Disks)](#raid-en-linux-redundant-array-of-independent-disks)
-  - [Gestión de almacenamiento en Microsoft Windows (Entorno Gráfico)](#gestión-de-almacenamiento-en-microsoft-windows-entorno-gráfico)
 
-### Mapa conceptual del tema
+* [1. Mapa Conceptual del Tema](#mapa-conceptual-del-tema)
+* [2. Sistemas de Archivos](#sistemas-de-archivos)
+  * [Tipos de sistemas de archivos](#tipos-de-sistemas-de-archivos)
+  * [Estructura de directorios en Linux](#estructura-de-directorios-en-linux)
+  * [Estructura de directorios en Windows](#estructura-de-directorios-en-windows)
+  * [Gestión de archivos por línea de comandos en Linux](#gestión-de-archivos-por-línea-de-comandos-en-linux)
+  * [Operaciones sobre directorios y carpetas (Linux)](#operaciones-sobre-directorios-y-carpetas-linux)
+  * [Atributos y Permisos (Linux)](#atributos-y-permisos-linux)
+  * [Tipos de archivos en Linux (Detalle)](#tipos-de-archivos-en-linux-detalle)
+  * [Operaciones con archivos en Linux](#operaciones-con-archivos-en-linux)
+  * [Operaciones sobre directorios y carpetas](#operaciones-sobre-directorios-y-carpetas)
+  * [Edición y Visualización de textos](#edición-y-visualización-de-textos)
+  * [Búsqueda de patrones (`grep`) y otros](#búsqueda-de-patrones-grep-y-otros)
+  * [Entrada y Salida Estándar. Redirecciones en Linux](#entrada-y-salida-estándar-redirecciones-en-linux)
+  * [Gestión de archivos en Microsoft Windows](#gestión-de-archivos-en-microsoft-windows)
+    * [Entorno Gráfico (Explorador)](#entorno-gráfico-explorador)
+    * [Modo Comando (CMD Windows)](#modo-comando-cmd-windows)
+* [3. Almacenamiento](#almacenamiento)
+  * [Gestión de almacenamiento en Linux](#gestión-de-almacenamiento-en-linux)
+    * [Montaje (`mount` / `umount`)](#montaje-mount--umount)
+    * [Particionamiento, Formateo y Chequeo](#particionamiento-formateo-y-chequeo)
+    * [RAID en Linux (Redundant Array of Independent Disks)](#raid-en-linux-redundant-array-of-independent-disks)
+  * [Gestión de almacenamiento en Microsoft Windows (Entorno Gráfico)](#gestión-de-almacenamiento-en-microsoft-windows-entorno-gráfico)
+* [4. Videografía y Recursos Complementarios](#recursos)
+
+---
+
+<h2 id="mapa-conceptual-del-tema"><u>1. Mapa Conceptual del Tema</u></h2>
 
 ![alt text](./imatges/image.png)
 *Diagrama de flujo mostrando la relación entre el Sistema Operativo, las Unidades de almacenamiento, el Sistema de archivos, y las interfaces gráficas y de comandos. Además, se listan los tipos de sistemas de archivos (FAT, exFAT, NTFS, APFS, ext4) y las herramientas de gestión (Montaje, Formateo, Chequeo, Búsqueda de información, Particionamiento, Desfragmentación, RAID).*
 
 ---
-# <u>1. Sistemas de Archivos</u>
+<h2 id="sistemas-de-archivos"><a id="1-sistemas-de-archivos"></a><u>2. Sistemas de Archivos</u></h2>
 
 *   El **archivo** (fichero) es la herramienta fundamental de abstracción lógica de la información.
 *   Los **directorios** (carpetas) son ficheros que actúan de contendores lógicos de ficheros o directorios.
@@ -177,7 +181,7 @@ Cada inodo contiene información de un fichero o directorio. En concreto, en un 
 *   El número de enlaces (hard links), esto es, el número de nombres (entradas de directorio) asociados con este inodo. Si múltiples nombres están enlazados, o sea, asociados a un mismo inodo (lo que se denomina enlaces duros o simplemente enlaces) entonces todos los nombres son equivalentes entre sí. El que fue creado en primer lugar no tiene ningún estatus especial, al contrario de lo que ocurre con los enlaces simbólicos o con los denominados accesos directos de Windows, donde todos dependen del nombre original. El número de enlaces se emplea por el sistema operativo para eliminar el archivo del sistema de ficheros, tanto el inodo como el contenido, cuando se han borrado todos los enlaces y el contador queda a cero.
 
 ---
-<h2 id="estructura-dir"><u>2. Estructura de Directorios</u></h2>
+<h2 id="estructura-dir"><u>Estructura de Directorios</u></h2>
 
 La información que se almacena en el sistema de archivos (directorios, subdirectorios y archivos regulares) suele ser jerárquica, ramificada o «en árbol», siguiendo el estándar FHS (Filesystem Hierarchy Standard).
 
@@ -567,7 +571,7 @@ Descriptores: Entrada estándar (0, `stdin`), Salida estándar (1, `stdout`), Er
 
 ---
 
-# <u>2. Almacenamiento</u>
+<h2 id="almacenamiento"><a id="2-almacenamiento"></a><u>3. Almacenamiento</u></h2>
 
 ## Gestión de almacenamiento en Linux
 
@@ -577,7 +581,7 @@ Nomenclatura en `/dev`:
 *   `/dev/hd*`: Discos IDE antiguos.
 Las particiones añaden números: `/dev/sda1` (1ª partición del 1er disco).
 
-### Montaje (`mount` / `umount`)
+<h3 id="montaje-mount--umount"><a id="montaje-mount-umount"></a>Montaje (<code>mount</code> / <code>umount</code>)</h3>
 *   **Montar:** `mount [-avwrt] tipo dispositivo punto_de_montaje`
     Ej: `sudo mount -t vfat /dev/sdb1 /home/Luis/pendrive`
     Opciones **mount**:
@@ -708,3 +712,23 @@ En Windows, se utilizan 3 herramientas principales:
   *  Cómo Configurar RAID 0, 1 y 5 en Windows Server 2022 con el Administrador de Discos: [ https://www.youtube.com/watch?v=Xfpw9_-dz2Y]( https://www.youtube.com/watch?v=Xfpw9_-dz2Y)
   *  Raid 0, 1 y 5 en Windows 10 con la herramientas Espacios de Almacenamiento: [ https://www.youtube.com/watch?v=JaT6uasaWwY]( https://www.youtube.com/watch?v=JaT6uasaWwY)
   *  Como hacer un RAID1 en Windows 10: [ https://www.youtube.com/watch?v=cpBCqax2pN4]( https://www.youtube.com/watch?v=cpBCqax2pN4)
+
+---
+
+<h2 id="recursos"><u>4. Videografía y Recursos Complementarios</u></h2>
+
+* **Sistemas de Archivos (Conceptos y comparativa):** [https://www.youtube.com/watch?v=RJHDX1zy9sw](https://www.youtube.com/watch?v=RJHDX1zy9sw)
+* **Documentación complementaria de comandos básicos de Linux (PDF):** [SSOO-GNUBash-A03-Comandos-basicos.pdf](./SSOO-GNUBash-A03-Comandos-basicos.pdf)
+* **Documentación complementaria de comandos básicos de Windows (PDF):** [WinXP-Consola-de-comandos.pdf](./WinXP-Consola-de-comandos.pdf)
+* **Manual de utilización oficial de GParted:** [https://gparted.org/display-doc.php?name=help-manual&lang=es](https://gparted.org/display-doc.php?name=help-manual&lang=es)
+* **Tutorial de uso de GParted:** [https://www.youtube.com/watch?v=-kYe3BYPurA](https://www.youtube.com/watch?v=-kYe3BYPurA)
+* **Copiar y mover particiones con GParted:** [https://www.youtube.com/watch?v=yJPdxCQ0PDU](https://www.youtube.com/watch?v=yJPdxCQ0PDU)
+* **Añadir un disco duro a una máquina virtual en VirtualBox:** [https://www.youtube.com/watch?v=5QxiBTM2lAU](https://www.youtube.com/watch?v=5QxiBTM2lAU)
+* **Crear y gestionar particiones en Linux desde terminal con `fdisk`:** [https://www.youtube.com/watch?v=VDsfvHICZaU](https://www.youtube.com/watch?v=VDsfvHICZaU)
+* **Conceptos y niveles de RAID (RAID 0, 1, 5 y 10):** [https://www.youtube.com/watch?v=kXSuXSakndI](https://www.youtube.com/watch?v=kXSuXSakndI)
+* **Crear un RAID de discos en Linux con `mdadm`:** [https://www.youtube.com/watch?v=eaPizT-rJvU](https://www.youtube.com/watch?v=eaPizT-rJvU)
+* **Configuración de RAID 0, 1 y 5 en Ubuntu Server 22.04:** [https://www.youtube.com/watch?v=43KG6UTNxos](https://www.youtube.com/watch?v=43KG6UTNxos)
+* **Crear y redimensionar particiones en Windows:** [https://www.youtube.com/watch?v=nT7rY3eTYCU](https://www.youtube.com/watch?v=nT7rY3eTYCU)
+* **Configurar RAID 0, 1 y 5 en Windows Server 2022 con el Administrador de Discos:** [https://www.youtube.com/watch?v=Xfpw9_-dz2Y](https://www.youtube.com/watch?v=Xfpw9_-dz2Y)
+* **Configurar RAID 0, 1 y 5 en Windows 10 con Espacios de Almacenamiento:** [https://www.youtube.com/watch?v=JaT6uasaWwY](https://www.youtube.com/watch?v=JaT6uasaWwY)
+* **Cómo configurar un RAID 1 en Windows 10:** [https://www.youtube.com/watch?v=cpBCqax2pN4](https://www.youtube.com/watch?v=cpBCqax2pN4)

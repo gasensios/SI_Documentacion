@@ -8,15 +8,23 @@ has_toc: true
 ---
 
 # FUNDAMENTOS DE LOS SISTEMAS INFORMÁTICOS Y LAS MÁQUINAS VIRTUALES
-* [Arquitectura de un sistema informático. Modelos](#arquitectura-modelos)
-* [Componentes hardware de un sistema informático](#componentes-hardware)
-* [Controladores de dispositivos. Instalación de drivers](#dispositivos)
-* [Componentes software de un sistema informático](#software)
-* [Proceso de arranque de un sistema informático. POST](#post)
-* [Máquinas virtuales](#maquina-virtual)
-* [Normas de seguridad y prevención de riesgos laborales](#seguridad)
 
-<h2 id="arquitectura-modelos"><u>Arquitectura de un sistema informático. Modelos</u></h2>
+---
+
+## Índice de Contenidos
+
+* [1. Arquitectura de un sistema informático. Modelos](#arquitectura-modelos)
+* [2. Componentes hardware de un sistema informático](#componentes-hardware)
+* [3. Componentes software de un sistema informático](#software)
+* [4. Controladores de dispositivos. Instalación de drivers](#dispositivos)
+* [5. Proceso de arranque de un sistema informático. POST](#post)
+* [6. Máquinas virtuales](#maquina-virtual)
+* [7. Normas de seguridad y prevención de riesgos laborales](#seguridad)
+* [8. Videografía y Recursos Complementarios](#recursos)
+
+---
+
+<h2 id="arquitectura-modelos"><u>1. Arquitectura de un sistema informático. Modelos</u></h2>
 
 ![alt text](./imatges/image.png)
 
@@ -140,7 +148,7 @@ has_toc: true
 
   </details>
 
-<h2 id="componentes-hardware"><u>Componentes hardware de un sistema informático</u></h2>
+<h2 id="componentes-hardware"><u>2. Componentes hardware de un sistema informático</u></h2>
 
 ![alt text](./imatges/image-14.png)
 * Placa base
@@ -449,7 +457,7 @@ has_toc: true
       [https://www.picuino.com/es/informatica-hardware-placabase.html](https://www.picuino.com/es/informatica-hardware-placabase.html)
       </details>
 
-<h2 id="software"><u>SOFTWARE</u></h2>
+<h2 id="software"><u>3. Componentes software de un sistema informático</u></h2>
 
   * **Software base o de sistema**
     * Se define como el software básico sin la cual el ordenador no puede funcionar. El sistema operativo es el alma del ordenador.
@@ -475,7 +483,7 @@ has_toc: true
     * Inicialización del sistema o arranque
 
 
-<h2 id="dispositivos"><u>Controladores de dispositivos</u></h2>
+<h2 id="dispositivos"><u>4. Controladores de dispositivos. Instalación de drivers</u></h2>
 
   * Los dispositivos hardware del sistema informático necesitan ser reconocidos por el SO, para ello los componentes hardware disponen de controladores que se encargan de gestionar y coordinar el funcionamiento del dispositivo, además de establecer un “diálogo” con la estructura de orden superior del sistema informático.
   * Proporciona una interfaz de software con el hardware, lo que permite a los sistemas operativos y otros programas informáticos acceder a las funciones del hardware sin necesidad de conocer detalles precisos sobre el hardware que se está utilizando.
@@ -492,7 +500,7 @@ has_toc: true
       ![alt text](./imatges/image-50.png)
 
 
-<h2 id="post"><u>Proceso de arranque de un sistema informático. POST</u></h2>
+<h2 id="post"><u>5. Proceso de arranque de un sistema informático. POST</u></h2>
 
   *  Al pulsar el botón de arranque, la fuente de alimentación distribuye los siguientes voltajes:
      * 3,3 V para los componentes electrónicos de más baja potencia (ej: memoria RAM o unidades SSD de formato M.2)
@@ -541,7 +549,7 @@ has_toc: true
   
       ![alt text](./imatges/image-55.png)
 
-<h2 id="maquina-virtual"><u>MÁQUINAS VIRTUALES</u></h2>
+<h2 id="maquina-virtual"><u>6. Máquinas virtuales</u></h2>
 
   * Llamamos máquina virtual a una computadora no real, instalada y configurada en un sistema informático mediante un software que permite simular su funcionamiento autónomo.
   * Cuando se habla de virtualización en informática, estamos hablando de la abstracción de los recursos hardware de la computadora. El sistema informático al que se abstraen sus recursos para poder instalar la máquina virtual se denomina host o anfitrión. Sobre estos se podrá instalar la máquina virtual con sistemas operativos guest o invitado.
@@ -597,7 +605,7 @@ has_toc: true
   * Actividad
     1. Crea una máquina virtual con el nombre Prueba, estableciendo una configuración con memoria RAM de 2 GB y un disco duro de tamaño fijo de 20 GB. Crearemos una instantánea y, a continuación, elimina la máquina virtual.
 
-<h2 id="seguridad"><u>Normas de Seguridad y Prevención de Riesgos Laborales</u></h2>
+<h2 id="seguridad"><u>7. Normas de seguridad y prevención de riesgos laborales</u></h2>
 
   * Cuando trabajamos con un sistema informático, debemos adoptar unas recomendaciones ergonómicas y de seguridad básicas de cara a prevenir o minimizar cualquier riesgo laboral.
   * En la Unión Europea y en España existe una normativa específica en cada sector laboral que regula las normas de seguridad y de prevención de riesgos laborales.
@@ -629,4 +637,33 @@ has_toc: true
   * Recomendaciones para el uso saludable del ordenador - [https://www.youtube.com/watch?v=dYO1CAfDfog](https://www.youtube.com/watch?v=dYO1CAfDfog)
 
     ![alt text](./imatges/image-59.png)
+
+---
+
+<h2 id="recursos"><u>8. Videografía y Recursos Complementarios</u></h2>
+
+* **Arquitectura de Von Neumann:** [https://www.youtube.com/watch?v=KpAHKQrco_s](https://www.youtube.com/watch?v=KpAHKQrco_s)
+* **Cómo trabaja el procesador:** [https://www.youtube.com/watch?v=b5mZKUTQ3JQ](https://www.youtube.com/watch?v=b5mZKUTQ3JQ)
+* **Arquitectura de Von Neumann vs Harvard:** [https://www.youtube.com/watch?v=uPNgjj2a3xE](https://www.youtube.com/watch?v=uPNgjj2a3xE)
+* **Conversión entre medidas de información:** [https://www.youtube.com/watch?v=IEg_5sjhw-8](https://www.youtube.com/watch?v=IEg_5sjhw-8)
+* **Conectores y componentes de una placa base:** [https://www.youtube.com/watch?v=bDcdrc2AD5k](https://www.youtube.com/watch?v=bDcdrc2AD5k)
+* **Cómo montar un ordenador desde cero:** [https://www.youtube.com/watch?v=TVPtnVD6Qz8](https://www.youtube.com/watch?v=TVPtnVD6Qz8)
+* **¿Qué caja o chasis elegir?:** [https://www.youtube.com/watch?v=hihHVN_D72s](https://www.youtube.com/watch?v=hihHVN_D72s)
+* **Montaje de placa base:** [https://www.youtube.com/watch?v=gEwCK7LqhYU](https://www.youtube.com/watch?v=gEwCK7LqhYU)
+* **Montaje del microprocesador:** [https://www.youtube.com/watch?v=pzTxM1MjT9c](https://www.youtube.com/watch?v=pzTxM1MjT9c)
+* **Instalación de memoria RAM:** [https://www.youtube.com/watch?v=pLx8gq3E_k4](https://www.youtube.com/watch?v=pLx8gq3E_k4)
+* **Montaje del disipador/ventilador de CPU:** [https://www.youtube.com/watch?v=ugsOnBlMGxQ](https://www.youtube.com/watch?v=ugsOnBlMGxQ)
+* **Instalación de la fuente de alimentación:** [https://www.youtube.com/watch?v=AHNGOgLYJko](https://www.youtube.com/watch?v=AHNGOgLYJko)
+* **Conexión de cables del panel frontal:** [https://www.youtube.com/watch?v=vIR-utT3tcc](https://www.youtube.com/watch?v=vIR-utT3tcc) / [https://www.youtube.com/watch?v=3Q_kDWI6PzE](https://www.youtube.com/watch?v=3Q_kDWI6PzE)
+* **Estructura física y funcionamiento interno de un disco duro:** [https://www.youtube.com/watch?v=S067wQRIgF0](https://www.youtube.com/watch?v=S067wQRIgF0)
+* **Soportes ópticos (CDs: así se hacen y así funcionan):** [https://www.youtube.com/watch?v=KOkIcK0XcTg](https://www.youtube.com/watch?v=KOkIcK0XcTg)
+* **Manual y guía técnica de hardware de placa base:** [https://www.picuino.com/es/informatica-hardware-placabase.html](https://www.picuino.com/es/informatica-hardware-placabase.html)
+* **Pitidos de la BIOS y códigos de error POST:** [https://www.youtube.com/watch?v=qGIi7HhoYAk](https://www.youtube.com/watch?v=qGIi7HhoYAk)
+* **Instalar Ubuntu 22.04 LTS en VirtualBox:** [https://www.youtube.com/watch?v=hLfVO0GwheU](https://www.youtube.com/watch?v=hLfVO0GwheU)
+* **Instalar Ubuntu 24.04 LTS en VirtualBox:** [https://www.youtube.com/watch?v=qH9JuCjCKow](https://www.youtube.com/watch?v=qH9JuCjCKow)
+* **Instalar Windows 11 en VirtualBox:** [https://www.youtube.com/watch?v=mcjQ_aQQjk4](https://www.youtube.com/watch?v=mcjQ_aQQjk4)
+* **Instalar Windows 10 en VirtualBox:** [https://www.youtube.com/watch?v=gfM9uMT575w&list=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J](https://www.youtube.com/watch?v=gfM9uMT575w&list=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J)
+* **Ergonomía en la Oficina (Pantallas de visualización de datos):** [https://www.youtube.com/watch?v=e-3_rKmsjmQ](https://www.youtube.com/watch?v=e-3_rKmsjmQ)
+* **Recomendaciones ergonómicas para el uso saludable del ordenador:** [https://www.youtube.com/watch?v=dYO1CAfDfog](https://www.youtube.com/watch?v=dYO1CAfDfog)
+
 

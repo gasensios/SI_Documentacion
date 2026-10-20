@@ -13,19 +13,20 @@ has_toc: true
 
 ## Índice de Contenidos
 
-* [Funciones y características](#funciones-basicas)
-* [Definición y Funciones Básicas de un SO](#sistema-operativo)
-* [Características de un Sistema Operativo](#carac-so)
-* [Módulos de Administración del Sistema](#mod-admin)
-* [Procesos, Flujos, Hilos y Bloque de Control de Procesos (BCP)](#procesos-bcp)
-* [Algoritmos de Planificación](#algoritmo-pla)
-* [Otros Módulos de Administración del SO](#otro-admin)
-* [Clasificación de Sistemas Operativos](#clas-so)
-* [Arquitecturas de Sistemas Operativos](#arqui-so)
-* [Versiones y Distribuciones Principales](#ver-dis)
-* [Instalación, Particionamiento y Arranque](#inst-part)
-* [Organización del espacio de almacenamiento](#org-almacen)
-* [Mantenimiento y Gestión de Paquetes](#mant-gest)
+* [1. Mapa Conceptual del Tema](#funciones-basicas)
+* [2. Definición y Funciones Básicas de un SO](#sistema-operativo)
+* [3. Características de un Sistema Operativo](#carac-so)
+* [4. Módulos de Administración del Sistema](#mod-admin)
+* [5. Procesos, Flujos, Hilos y Bloque de Control de Procesos (BCP)](#procesos-bcp)
+* [6. Algoritmos de Planificación](#algoritmo-pla)
+* [7. Otros Módulos de Administración del SO](#otro-admin)
+* [8. Clasificación de Sistemas Operativos](#clas-so)
+* [9. Arquitecturas de Sistemas Operativos](#arqui-so)
+* [10. Versiones y Distribuciones Principales](#ver-dis)
+* [11. Instalación, Particionamiento y Arranque](#inst-part)
+* [12. Organización del espacio de almacenamiento](#org-almacen)
+* [13. Mantenimiento y Gestión de Paquetes](#mant-gest)
+* [14. Videografía y Recursos Complementarios](#recursos)
 
 ---
 <h2 id="funciones-basicas"><u>1. Mapa Conceptual del Tema</u></h2>
@@ -495,3 +496,26 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
   ## Actividad
   * Instala el Synaptic Package Manager y mira las diferencias que tiene con respecto al centro de Software de Ubuntu.
+
+---
+
+<h2 id="recursos"><u>14. Videografía y Recursos Complementarios</u></h2>
+
+* **Evolución histórica de los Sistemas Operativos:** [https://www.youtube.com/watch?v=E2fAqDFz9SY](https://www.youtube.com/watch?v=E2fAqDFz9SY)
+* **¿Qué es un Sistema Operativo?:** [https://www.youtube.com/watch?v=AaUELEqLcVk](https://www.youtube.com/watch?v=AaUELEqLcVk)
+* **Funciones principales de un Sistema Operativo:** [https://www.youtube.com/watch?v=y3Xi0ekq6_w](https://www.youtube.com/watch?v=y3Xi0ekq6_w)
+* **Sistemas Operativos en Tiempo Real (QNX / LynxOS):** [https://blackberry.qnx.com](https://blackberry.qnx.com) y [http://www.lynx.com](http://www.lynx.com)
+* **Arquitectura interna del kernel de Windows frente a Linux:** [https://www.genbeta.com/a-fondo/como-es-el-kernel-de-windows-y-cuales-son-sus-diferencias-con-el-de-linux](https://www.genbeta.com/a-fondo/como-es-el-kernel-de-windows-y-cuales-son-sus-diferencias-con-el-de-linux)
+* **Tablas de particiones (MBR vs GPT - Parte 1):** [https://www.youtube.com/watch?v=sLnllw6rALA](https://www.youtube.com/watch?v=sLnllw6rALA)
+* **Tablas de particiones (MBR vs GPT - Parte 2):** [https://www.youtube.com/watch?v=eH-N4XiNCO0](https://www.youtube.com/watch?v=eH-N4XiNCO0)
+* **Instalación de Ubuntu Desktop en VirtualBox:** [https://www.youtube.com/watch?v=qH9JuCjCKow](https://www.youtube.com/watch?v=qH9JuCjCKow)
+* **Instalación de Windows 10 en VirtualBox:** [https://www.youtube.com/watch?v=gfM9uMT575w&list=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J](https://www.youtube.com/watch?v=gfM9uMT575w&list=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J)
+* **Configuración de arranque dual (Dual Boot Windows + Linux):** [https://www.youtube.com/watch?v=Rj9bzqP5egU](https://www.youtube.com/watch?v=Rj9bzqP5egU)
+* **Instalación de VirtualBox Guest Additions:** [https://www.youtube.com/watch?v=DH1TDDX7NmE](https://www.youtube.com/watch?v=DH1TDDX7NmE) / [https://www.youtube.com/watch?v=kwHmO6a35j8](https://www.youtube.com/watch?v=kwHmO6a35j8)
+* **Descarga de imágenes y extensiones de VirtualBox:** [https://download.virtualbox.org/virtualbox/](https://download.virtualbox.org/virtualbox/)
+* **Instalación desatendida de Windows 10 en VirtualBox 7:** [https://www.youtube.com/watch?v=C08MiyILxwM](https://www.youtube.com/watch?v=C08MiyILxwM)
+* **Instalación desatendida de Windows 11 paso a paso:** [https://www.youtube.com/watch?v=zHctGd2p4B0](https://www.youtube.com/watch?v=zHctGd2p4B0)
+* **Personalización y despliegue con la herramienta NTLite:** [https://www.youtube.com/watch?v=dZUZC4eyP-Y](https://www.youtube.com/watch?v=dZUZC4eyP-Y)
+* **Instalaciones automatizadas con Red Hat Kickstart:** [https://www.youtube.com/watch?v=fsR3rxsYLSA](https://www.youtube.com/watch?v=fsR3rxsYLSA)
+* **Guía de particionamiento de discos en Windows:** [https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows](https://www.xataka.com/basics/particiones-de-disco-duro-que-son-y-como-hacerlas-en-windows)
+
