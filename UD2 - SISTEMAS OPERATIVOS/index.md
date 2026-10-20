@@ -219,7 +219,7 @@ ejecuten varios procesos en el mismo equipo, la CPU se encarga de asignar tiempo
   * ***FIFO (Cuanta más bajo sea el valor de la prioridad, mayor prioridad tiene el proceso)***
   ![alt text](./imatges/image-14.png)
 
-    ![alt text](.//imatges/image-17.png)
+    ![alt text](./imatges/image-17.png)
 
     ![alt text](./imatges/image-19.png)
 
@@ -331,7 +331,7 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
 ---
 
-<h2 id="ver-dis"><u>9. Versiones y Distribuciones Principales</u></h2>
+<h2 id="ver-dis"><u>10. Versiones y Distribuciones Principales</u></h2>
 
 * **Microsoft Windows:**
   * *Escritorio (ej. Windows 10):* Home, Pro, Enterprise, IoT, Education, Pro for Workstations.
@@ -343,7 +343,7 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
 ---
 
-<h2 id="inst-part"><u>10. Instalación, Particionamiento y Arranque</u></h2>
+<h2 id="inst-part"><u>11. Instalación, Particionamiento y Arranque</u></h2>
 
 ### Consideraciones Previas
 * Verificación de requisitos mínimos y recomendados.
@@ -364,7 +364,7 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
   ![alt text](./imatges/image-29.png)
 
-* **INSTALAR Windows 10 en VirtualBox:** [https://www.youtube.com/watch?v=gfM9uMT575wlist=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J](https://www.youtube.com/watch?v=gfM9uMT575wlist=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J)
+* **INSTALAR Windows 10 en VirtualBox:** [https://www.youtube.com/watch?v=gfM9uMT575w&list=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J](https://www.youtube.com/watch?v=gfM9uMT575w&list=PLG1hKOHdoXkvF6Q5VcGZrRSeE7Eu38s3J)
   
 * **CÓMO tener DUAL BOOT de forma FÁCIL WINDOWS+LINUX:** [https://www.youtube.com/watch?v=Rj9bzqP5egU](https://www.youtube.com/watch?v=Rj9bzqP5egU)
 
@@ -393,7 +393,7 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
 ---
 
-<h2 id="org-almacen"><u>11. Organización del espacio de almacenamiento</u></h2>
+<h2 id="org-almacen"><u>12. Organización del espacio de almacenamiento</u></h2>
 
 * El formato o sistema de archivos de las particiones no debe ser confundido con el tipo de particiones. Independientemente del sistema de archivos de una partición (FAT, ext3/4, NTFS, etc.), existen tres tipos diferentes de particiones:
   * **Partición primaria.** Es el espacio de disco imprescindible para poder empezar a utilizar el espacio de almacenamiento. Solo puede haber tres de éstas, y no en todos los sistemas de archivos. **En este tipo de particiones es donde se suele instalar el sistema operativo.**
@@ -463,7 +463,7 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
 
 ---
 
-<h2 id="mant-gest"><u>12. Mantenimiento y Gestión de Paquetes</u></h2>
+<h2 id="mant-gest"><u>13. Mantenimiento y Gestión de Paquetes</u></h2>
 
 ### Actualizaciones del Sistema Operativo
 * **Modos de gestión:** Automática, semiautomática o manual.

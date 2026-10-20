@@ -20,10 +20,7 @@ has_toc: true
 ---
 
 ## Índice de Contenidos
-- [SISTEMAS OPERATIVOS: GESTIÓN DE ARCHIVOS Y ALMACENAMIENTO](#sistemas-operativos-gestión-de-archivos-y-almacenamiento)
-  - [Documentación alternativa:](#documentación-alternativa)
-  - [Índice de Contenidos](#índice-de-contenidos)
-    - [Mapa conceptual del tema](#mapa-conceptual-del-tema)
+- [Mapa conceptual del tema](#mapa-conceptual-del-tema)
 - [1. Sistemas de Archivos](#1-sistemas-de-archivos)
     - [Tipos de sistemas de archivos](#tipos-de-sistemas-de-archivos)
     - [Estructura de directorios en Linux](#estructura-de-directorios-en-linux)
@@ -138,11 +135,11 @@ Se considera el sistema de archivos estándar de Microsoft Windows. Sus mejoras 
 *   Puede llegar a gestionar volúmenes de hasta 16 EB y archivos de hasta 16 TB.
 *   Emplea Unicode para el nombre de archivos, con hasta 255 caracteres.
 
-**<u>APFS:**</u>
+**<u>APFS:</u>**
 Sistema de archivos empleado por Apple Inc. para sus medios de almacenamiento, que supone una versión mejorada de su predecesora HFS+. Sus características son similares a NTFS y ext4, por lo que permite administrar archivos y volúmenes de hasta 8 EB. Permite encriptación y está optimizado para almacenamiento Flash.
 *   SISTEMAS DE ARCHIVOS (Video de YouTube): [https://www.youtube.com/watch?v=RJHDX1zy9sw](https://www.youtube.com/watch?v=RJHDX1zy9sw)
 
-**<u>ext4:**</u>
+**<u>ext4:</u>**
 Sistema de archivos predeterminado para sistemas operativos de tipo Linux en su cuarta versión. Incluye journaling, maneja archivos de hasta 16 TB y volúmenes de hasta 1 EB. Supera a sus antecesores ext2 y ext3, ya que:
 *   Mejora el rendimiento.
 *   Reduce la fragmentación.
@@ -516,14 +513,14 @@ Descriptores: Entrada estándar (0, `stdin`), Salida estándar (1, `stdout`), Er
 
 ### Modo Comando (CMD Windows)
 
-**Navegación y busqueda por directorios**
+**Navegación y búsqueda por directorios**
 | Comando | Función |
 | :--- | :--- |
 | `dir` | Lista archivos y carpetas (`dir /s archivo.txt` busca en subdirectorios y `dir *.txt` busca por extensión). |
 | `cd carpeta` | Entra en carpeta. `cd ..` sube un nivel. `cd \` va a la raíz. |
 | `cls` | Limpia pantalla. |
 
-**Crear y manipular arhivos**
+**Crear y manipular archivos**
 | Comando | Función |
 | :--- | :--- |
 | `type nul > archivo.txt` | Crear archivo vacio |
@@ -597,7 +594,7 @@ Las particiones añaden números: `/dev/sda1` (1ª partición del 1er disco).
     *   *Herramientas gráficas:* **GParted**, GNOME-disks. Permiten crear, eliminar y redimensionar. *Imagen: GParted mostrando `/dev/sda` dividido en particiones, y el menú "Formatear como" (ext4, ntfs, fat32, etc.).*
     *   *Herramientas texto:* `fdisk`, `parted`. En `fdisk`, menú interactivo (`n` nueva, `d` borrar, `w` guardar).
     ![alt text](./imatges/image-16.png)
-    *  Ejemplo gestión particicones: ***GPARTED***
+    *  Ejemplo gestión particiones: ***GPARTED***
        * En la siguiente imagen, se ve un disco duro SATA particionado en cuatro trozos o particiones lógicas desde GParted.
         ![alt text](./imatges/image-17.png)
        *   Como esta aplicación está desarrollada para linux, las unidades de disco duro se nombran como lo hace este sistema operativo, es decir, el primer disco duro que se encuentre conectado en el ordenador (será normalmente el que se utiliza para instalar el sistema operativo) se llamará sda (realmente en linux su nombre  completo oficialmente es /dev/sda). Si se pincha un segundo disco duro (aunque fuese una memoria flash USB o un disco duro externo USB) se llamará sdb, y si se conectase un tercero se llamaría sdc. Las particiones que se creen dentro del disco duro añadirán un número al nombre del dispositivo. Dichas particiones  se van creando y numerando de izquierda a derecha (como /dev/sda1, /dev/sda2, /dev/sda3, /dev/sda4).
@@ -657,7 +654,7 @@ Establece configuraciones de varios discos para aumentar integridad, capacidad o
 
 
 **Gestión con `mdadm`:**
-*  Instalación en laa distribución de lliurex: `sudo apt install mdadm`
+*  Instalación en la distribución de LliureX: `sudo apt install mdadm`
 *  Ver estado: `cat /proc/mdstat`
 *  Crear: `mdadm --create /dev/md0 --level=5 --raid-devices=3 /dev/sda /dev/sdb /dev/sdc`
 *   Gestionar: `--fail` (marcar roto), `--remove` (quitar), `--add` (añadir repuesto), `--stop` (detener).

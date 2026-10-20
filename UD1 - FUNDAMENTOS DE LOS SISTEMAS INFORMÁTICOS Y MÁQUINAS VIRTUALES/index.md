@@ -1,5 +1,5 @@
 ---
-title: UD1 - Fundadentos de los Sistemas Informáticos y las máquinas virtuales
+title: UD1 - Fundamentos de los Sistemas Informáticos y las Máquinas Virtuales
 layout: default
 parent: Sistemes Informatics
 nav_order: 2
@@ -597,7 +597,7 @@ has_toc: true
   * Actividad
     1. Crea una máquina virtual con el nombre Prueba, estableciendo una configuración con memoria RAM de 2 GB y un disco duro de tamaño fijo de 20 GB. Crearemos una instantánea y, a continuación, elimina la máquina virtual.
 
-<h2 id="seguridad"><u>ANORMAS DE SEGURIDAD Y PREVENCIÓN DE RIESGOS LABORALES</u></h2>
+<h2 id="seguridad"><u>Normas de Seguridad y Prevención de Riesgos Laborales</u></h2>
 
   * Cuando trabajamos con un sistema informático, debemos adoptar unas recomendaciones ergonómicas y de seguridad básicas de cara a prevenir o minimizar cualquier riesgo laboral.
   * En la Unión Europea y en España existe una normativa específica en cada sector laboral que regula las normas de seguridad y de prevención de riesgos laborales.
