@@ -233,13 +233,15 @@ ejecuten varios procesos en el mismo equipo, la CPU se encarga de asignar tiempo
 
     ![alt text](./imatges/image-21.png)
 
-  ## Actividad 1
+## Actividad 1
+  
   * Realiza la planificación de los siguientes procesos utilizando algoritmo de planificación FIFO y Round Robin sin prioridades. El Quantum será de 3 unidades y el Cambio de contexto de 1 unidades.
 
   ![alt text](./imatges/image-15.png)
 
-  ## Actividad 2
-  * Realiza  la planificación de los siguientes procesos utilizando algoritmo de planificación Round Robin con prioridades. El Quantum será de 3 unidades y el Cambio de contexto de 1 unidades. Cuanta más bajo sea el valor de la prioridad, mayor prioridad tiene el proceso.
+## Actividad 2
+  
+  * Realiza la planificación de los siguientes procesos utilizando algoritmo de planificación Round Robin con prioridades. El Quantum será de 3 unidades y el Cambio de contexto de 1 unidades. Cuanta más bajo sea el valor de la prioridad, mayor prioridad tiene el proceso.
 
   ![alt text](./imatges/image-20.png)
 
