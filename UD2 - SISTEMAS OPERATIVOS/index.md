@@ -408,11 +408,12 @@ $$\text{Hardware} \rightarrow \text{Núcleo} \rightarrow \text{Servicios} \right
     ![alt text](./imatges/image-30.png)
 
 ### MBR frente a GPT
+
 | Característica | MBR (Master Boot Record) | GPT (GUID Partition Table) |
 | :--- | :--- | :--- |
 | **Estándar firmware** | BIOS heredado (Legacy BIOS) | UEFI |
 | **Límite de particiones** | 4 primarias (o 3 primarias + 1 extendida con lógicas) | Hasta 128 particiones |
-| **Capacidad máxima** | Hasta 2 TB | Hasta 9.4 ZB ($10^{21}$ bytes) |
+| **Capacidad máxima** | Hasta 2 TB | Hasta 9.4 ZB (10<sup>21</sup> bytes) |
 | **Seguridad / Respaldo** | Un solo sector al inicio; vulnerable si se corrompe | Tablas duplicadas al inicio y al final con verificación CRC |
 
 ### Estructura típica de particiones Windows:
